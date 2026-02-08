@@ -1,0 +1,7 @@
+// A follower gain counter based on percentage
+#include <iostream>
+using namespace std;
+int main ()
+{
+  cout << "Check out Fernandos follower gain in just 1 day!";
+}
