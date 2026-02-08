@@ -1,19 +1,23 @@
-// A follower gain counter based on percentage
+//A follower gain counter based on percentage
+//Gabriel Brown
+//Date: 2/8/2026
+//Section 2
+
 #include <iostream>
 using namespace std;
 int main ()
 {
   cout << "Check out Fernandos follower gain in just 1 day!" <<endl<< "after his performance in the title game his followers inreased by 38 percent. Insane!!";
-  // Below is the calculation for follow number based on the supposed 36 percentageIncrease
+  //Below is the calculation for follow number based on the supposed 36 percentageIncrease
   double followerCount, // Holds original followerCount
  
-  // Starting follower count
+  //Starting follower count
   startingFollowers = 328200,
 
-// Percentage increase based off of given information
+//Percentage increase based off of given information
   percentIncrease = 1.38,
 
-// Calculated follower count
+//Calculated follower count
 totalFollowers = startingFollowers * percentIncrease;
 
 //Display new follower count
@@ -21,3 +25,4 @@ totalFollowers = startingFollowers * percentIncrease;
 cout <<endl<< "Fernandos new follower count comes out to grand total of" <<endl<< totalFollowers << endl;
 return 0;
 }
+
